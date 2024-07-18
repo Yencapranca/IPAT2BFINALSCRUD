@@ -1,0 +1,111 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form div {
+    margin-bottom: 15px;
+}
+
+.form-container form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+.form-container form input {
+    width: 95.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #0056b3;
+}
+
+.list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-container ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.list-container ul li div {
+    margin-bottom: 5px;
+}
+
+.list-container ul li div strong {
+    color: #555;
+}
+
+.list-container ul li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.list-container ul li button:hover {
+    background-color: #218838;
+}
+
+.list-container ul li button:last-child {
+    background-color: #dc3545;
+}
+
+.list-container ul li button:last-child:hover {
+    background-color: #c82333;
+}
